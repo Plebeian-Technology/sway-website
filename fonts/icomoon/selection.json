@@ -127,7 +127,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "LegisMe4"
+          "Sway4"
         ],
         "colorPermutations": {
           "12552552551": [
@@ -313,7 +313,7 @@
       "properties": {
         "order": 2,
         "id": 0,
-        "name": "legisme",
+        "name": "sway",
         "prevSize": 32,
         "code": 59648,
         "codes": [

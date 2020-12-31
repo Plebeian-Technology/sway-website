@@ -23,7 +23,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-legisme .path1:before {
+.icon-sway .path1:before {
   content: "\e900";
   color: rgb(255, 255, 255);
 }
