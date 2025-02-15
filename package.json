@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/Plebeian-Technology/sway-website/issues"
   },
-  "homepage": "https://github.com/Plebeian-Technology/sway-website#readme",
-  "devDependencies": {
-    "netlify-cli": "^12.0.11"
-  }
+  "homepage": "https://github.com/Plebeian-Technology/sway-website#readme"
 }
