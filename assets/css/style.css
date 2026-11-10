@@ -415,6 +415,13 @@ h3 {
   .liberty__copy-inner {
     max-width: none;
   }
+
+  /* Keep the statue legible: show the right half of the 2:1 art as a square. */
+  .liberty__art {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: right bottom;
+  }
 }
 
 /* Feature articles (add your city, private) */

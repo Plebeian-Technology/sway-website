@@ -42,7 +42,7 @@ Full-bleed pink band with the Statue of Liberty image.
 
 - Class `liberty`. Image `liberty__art` spans 100% of the viewport.
 - Copy `liberty__copy` is absolutely positioned over the left on desktop.
-- Under 760px the copy is static and sits above the image.
+- Under 760px the copy is static and sits above the image, and the image is cropped to a 1:1 square anchored right bottom (`object-fit: cover`).
 - Rationale: [[full-bleed-liberty-band]].
 
 ## Features

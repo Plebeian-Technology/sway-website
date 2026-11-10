@@ -17,4 +17,4 @@ The section therefore sits outside the centered column, and the image fills the 
 
 Overlaid text needs the empty pink area, and a narrow screen shrinks that area until the copy would cover the statue.
 
-Below 760px the copy leaves the overlay and sits above the image on the same pink background. The image keeps its full width. See [[reference/homepage-components#Liberty band]] for the markup and the breakpoint.
+Below 760px the copy leaves the overlay and sits above the image on the same pink background. The image keeps its full width, but at that size the whole 2:1 artwork would leave the statue tiny in one corner, so the image is cropped to a square showing its right half: the statue and the "Vote!" bubble. See [[reference/homepage-components#Liberty band]] for the markup and the breakpoint.
