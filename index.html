@@ -1,531 +1,197 @@
-<!-- @format -->
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sway: Remember in November</title>
+  <meta name="description" content="Vote on the same bills as your representatives. Then sway them to your side. Sway picks one Bill of the Month and keeps your vote private.">
+  <meta name="theme-color" content="#2F4B68">
+  <link rel="canonical" href="https://about.sway.vote/">
+  <link rel="icon" href="/assets/images/Sway2.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/images/sway-us-light.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sway">
+  <meta property="og:title" content="Sway: Remember in November">
+  <meta property="og:description" content="Vote on the same bills as your representatives. Then sway them to your side. Sway picks one Bill of the Month and keeps your vote private.">
+  <meta property="og:url" content="https://about.sway.vote/">
+  <meta property="og:image" content="https://about.sway.vote/assets/images/sway-us-light.png">
+  <meta property="og:image:alt" content="The Sway campaign button">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Ultra&amp;display=swap">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<!-- @lat: [[lat#Sway website]] -->
+<!-- @lat: [[homepage-components#Homepage components#Hero]] -->
 
-        <title>Sway</title>
-        <meta content="Empower Your Vote" name="description" />
-        <meta content="democracy,power,vote,sway" name="keywords" />
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__logo" href="/">
+      <img src="/assets/images/sway-us-light.png" alt="Sway home" width="52" height="52">
+    </a>
+    <nav aria-label="Main">
+      <ul class="site-nav">
+        <li><a class="site-nav__link" href="/#how">How it works</a></li>
+        <li><a class="site-nav__link" href="/#bill">Bill of the Month</a></li>
+        <li><a class="site-nav__link" href="/#privacy">Privacy</a></li>
+        <li>
+          <a class="site-nav__icon" href="https://github.com/Plebeian-Technology/sway" aria-label="Sway on GitHub">
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+          </a>
+        </li>
+        <li><a class="site-nav__cta" href="https://sway.vote">Open Sway</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-        <!-- Favicons -->
-        <link href="assets/images/Sway2.png" rel="icon" />
-        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+<main>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <h1 class="display hero__title" id="hero-title">Remember in November.</h1>
+      <p class="hero__lede">Vote on the same bills as your representatives. Then sway them to your side.</p>
+      <div class="hero__actions">
+        <a class="btn" href="https://sway.vote">Open Sway</a>
+        <a class="hero__source" href="https://github.com/Plebeian-Technology/sway">Read the source on GitHub</a>
+      </div>
+    </div>
+    <div class="hero__art">
+      <img src="/assets/images/banner.png" alt="" width="1200" height="1333">
+    </div>
+  </div>
+</section>
 
-        <!-- Google Fonts -->
-        <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-            rel="stylesheet"
-        />
+<section class="how" id="how" aria-labelledby="how-title">
+  <div class="container">
+    <h2 class="display how__title" id="how-title">Take part in the democratic process with one click.</h2>
+    <div class="how__steps">
+      <div class="step">
+        <h3>Vote</h3>
+        <p>Vote on the same bills as your city council and members of Congress.</p>
+      </div>
+      <div class="step">
+        <h3>Engage</h3>
+        <p>Email, call or mail a postcard to your representatives from one place.</p>
+      </div>
+      <div class="step">
+        <h3>Compare</h3>
+        <p>Sway scores how often you and your representatives agree, so you can hold them accountable at the next election.</p>
+      </div>
+      <div class="step">
+        <h3>Share</h3>
+        <p>Post your votes to social media and sway the people who follow you.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-        <link
-            href="assets/vendor/bootstrap/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
-        <link
-            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-            rel="stylesheet"
-        />
-        <link
-            href="assets/vendor/boxicons/css/boxicons.min.css"
-            rel="stylesheet"
-        />
-        <link
-            href="assets/vendor/glightbox/css/glightbox.min.css"
-            rel="stylesheet"
-        />
-        <link
-            href="assets/vendor/swiper/swiper-bundle.min.css"
-            rel="stylesheet"
-        />
+<section class="bill" id="bill" aria-labelledby="bill-title">
+  <div class="container">
+    <div class="bill__art">
+      <img src="/assets/images/ballotbox-black.png" alt="" width="1200" height="1200">
+    </div>
+    <div class="bill__body">
+      <h2 class="display bill__title" id="bill-title">Bill of the Month</h2>
+      <p class="bill__lede">Sway notifies you about one bill a month.</p>
+      <ul class="check-list">
+        <li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11.5l4.2 4.2L17.5 6"></path></svg><span>Focus on the legislation that matters most.</span></li>
+        <li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11.5l4.2 4.2L17.5 6"></path></svg><span>Cut through the noise and press your representatives where it counts.</span></li>
+        <li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11.5l4.2 4.2L17.5 6"></path></svg><span>Skip the bills that change little.</span></li>
+      </ul>
+      <p class="bill__more"><a href="/html/choosing-the-bill-of-the-month.html">How we choose the Bill of the Month</a></p>
+    </div>
+  </div>
+</section>
 
-        <!-- Template Main CSS File -->
-        <link href="assets/css/style.css" rel="stylesheet" />
+<section class="liberty" aria-labelledby="band-title">
+  <div class="liberty__copy">
+    <div class="container">
+      <div class="liberty__copy-inner">
+        <h2 class="display liberty__title" id="band-title">Make them hear you.</h2>
+        <p class="liberty__text">Cast your vote, then email, call or mail your representatives.</p>
+        <a class="btn btn--ink" href="https://sway.vote">Open Sway</a>
+      </div>
+    </div>
+  </div>
+  <img class="liberty__art" src="/assets/images/wide-Sway2VoteBubble.png" alt="The Statue of Liberty with a thought bubble that reads Vote!" width="2400" height="1200">
+</section>
 
-        <!-- =======================================================
-  * Template Name: Sway - v4.0.1
-  * Template URL: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-    </head>
+<section class="features">
+  <div class="container">
 
-    <body>
-        <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top header-transparent">
-            <div
-                class="container d-flex align-items-center justify-content-between"
-            >
-                <div class="logo">
-                    <a href="index.html"
-                        ><img
-                            src="assets/images/Sway2.png"
-                            alt="Sway"
-                            class="img-fluid"
-                            style="border-radius: 50%"
-                        />
-                        Sway</a
-                    >
-                </div>
+    <article class="feature" aria-labelledby="city-title">
+      <img class="feature__art" src="/assets/images/flags.png" alt="" width="1200" height="1200">
+      <div class="feature__body">
+        <h2 class="display feature__title" id="city-title">Add your city</h2>
+        <p class="feature__lede">Sway doesn't cover every city yet. It can.</p>
+        <div class="stat">
+          <span class="stat__number">89,004</span>
+          <span class="stat__label">local governments, as <a href="https://www.census.gov/newsroom/releases/archives/governments/cb12-161.html">counted by the US Census Bureau</a> in 2012</span>
+        </div>
+        <p class="feature__text">Every one of them should answer to its voters. Sway is open source. Anyone can add their city or county.</p>
+        <p class="feature__link"><a href="https://github.com/Plebeian-Technology/sway#adding-your-city-region-or-country">Add your city on GitHub</a></p>
+      </div>
+    </article>
 
-                <nav id="navbar" class="navbar">
-                    <ul>
-                        <li>
-                            <a class="nav-link scrollto active" href="#hero"
-                                >Home</a
-                            >
-                        </li>
-                        <li>
-                            <a class="nav-link scrollto" href="#features"
-                                >Sway</a
-                            >
-                        </li>
-                        <li>
-                            <a class="nav-link scrollto" href="#details"
-                                >Details</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                class="getstarted"
-                                href="https://sway.vote"
-                                target="_blank"
-                                >Launch <i class="bx bx-rocket"></i
-                            ></a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://twitter.com/sway_vote"
-                                target="_blank"
-                                ><i
-                                    class="bx bxl-twitter"
-                                    style="font-size: 20px"
-                                ></i
-                            ></a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://github.com/Plebeian-Technology/sway"
-                                target="_blank"
-                                ><i
-                                    class="bx bxl-github"
-                                    style="font-size: 20px"
-                                ></i
-                            ></a>
-                        </li>
-                    </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
-                <!-- .navbar -->
-            </div>
-        </header>
-        <!-- End Header -->
+    <article class="feature" id="privacy" aria-labelledby="privacy-title">
+      <img class="feature__art" src="/assets/images/private.png" alt="" width="1200" height="1200">
+      <div class="feature__body">
+        <h2 class="display feature__title" id="privacy-title">Private</h2>
+        <p class="feature__lede">Political choices carry tension. Sway keeps yours private.</p>
+        <ul class="check-list">
+          <li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11.5l4.2 4.2L17.5 6"></path></svg><span>Your data is yours. We don't sell it, and we never will.</span></li>
+          <li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11.5l4.2 4.2L17.5 6"></path></svg><span>See how many people voted, not who they are.</span></li>
+          <li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11.5l4.2 4.2L17.5 6"></path></svg><span>Influence your representatives without revealing who you are.</span></li>
+        </ul>
+        <p class="feature__text">Sway maximizes your privacy and your power.</p>
+      </div>
+    </article>
 
-        <section style="margin-top: 20px">
-            <div class="container" style="margin: 0px auto; text-align: center">
-                &nbsp;
-            </div>
-        </section>
+  </div>
+</section>
 
-        <!-- ======= Hero Section ======= -->
-        <section
-            id="hero"
-            class="d-flex align-items-center"
-            style="margin-top: 0px; padding-top: 0px"
-        >
-            <div class="container">
-                <div class="row">
-                    <div
-                        class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1"
-                        data-aos="fade-up"
-                    >
-                        <div>
-                            <h1>Empower Your Vote.</h1>
-                            <h2>
-                                Vote on the same legislation as your
-                                representatives and sway them to your side.
-                            </h2>
-                            <a
-                                href="https://sway.vote"
-                                target="_blank"
-                                class="launch-btn"
-                                ><i class="bx bx-rocket"></i>Launch Sway</a
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img"
-                        data-aos="fade-up"
-                    >
-                        <img
-                            src="assets/images/banner.png"
-                            class="img-fluid"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Hero -->
+<section class="cta" aria-labelledby="cta-title">
+  <div class="container">
+    <h2 class="display cta__title" id="cta-title">This month's bill is waiting.</h2>
+    <a class="btn" href="https://sway.vote">Open Sway</a>
+  </div>
+</section>
+</main>
 
-        <main id="main">
-            <!-- ======= Sway Features Section ======= -->
-            <section id="features" class="features">
-                <div class="container">
-                    <div class="section-title">
-                        <h2>
-                            Engage in the democratic process with just the click
-                            of a button.
-                        </h2>
-                    </div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div class="site-footer__org">
+        <img src="/assets/images/sway-us-light.png" alt="" width="64" height="64">
+        <p>Plebeian Technologies, Inc.</p>
+        <a href="mailto:info@sway.vote">info@sway.vote</a>
+      </div>
+      <div>
+        <h3>Policies</h3>
+        <ul class="site-footer__links">
+          <li><a href="/html/tos.html">Terms of service</a></li>
+          <li><a href="/html/privacy.html">Privacy policy</a></li>
+          <li><a href="/html/organizations.html">Organization content policy</a></li>
+          <li><a href="/html/choosing-the-bill-of-the-month.html">Choosing the Bill of the Month</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow along</h3>
+        <p class="site-footer__note">Hear about each new Bill of the Month.</p>
+        <ul class="site-footer__links">
+          <li><a href="https://twitter.com/sway_vote">@sway_vote on X</a></li>
+          <li><a href="https://github.com/Plebeian-Technology/sway">Plebeian-Technology/sway on GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="site-footer__legal">&#169; Plebeian Technologies, Inc. All rights reserved.</p>
+  </div>
+</footer>
 
-                    <div class="row no-gutters">
-                        <div
-                            class="col-xl-12 d-flex align-items-stretch order-2 order-lg-1"
-                        >
-                            <div
-                                class="content d-flex flex-column justify-content-center"
-                            >
-                                <div class="row">
-                                    <div
-                                        class="col-md-6 icon-box"
-                                        data-aos="fade-up"
-                                    >
-                                        <i class="bx bx-badge-check"></i>
-                                        <h4>Vote</h4>
-                                        <p>
-                                            Vote on the same legislation as your
-                                            local council and Congressional
-                                            representatives.
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="col-md-6 icon-box"
-                                        data-aos="fade-up"
-                                        data-aos-delay="100"
-                                    >
-                                        <i class="bx bx-broadcast"></i>
-                                        <h4>Engage</h4>
-                                        <p>
-                                            Send emails and postcards, and call
-                                            your representatives, all in one
-                                            place.
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="col-md-6 icon-box"
-                                        data-aos="fade-up"
-                                        data-aos-delay="200"
-                                    >
-                                        <i class="bx bx-award"></i>
-                                        <h4>Compare</h4>
-                                        <p>
-                                            Sway scores how you vote compared to
-                                            your representatives so you can hold
-                                            your representatives accountable in
-                                            the next election.
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="col-md-6 icon-box"
-                                        data-aos="fade-up"
-                                        data-aos-delay="300"
-                                    >
-                                        <i class="bx bx-share"></i>
-                                        <h4>Share</h4>
-                                        <p>
-                                            Post your votes to social media and
-                                            influence people who follow you.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Sway Features Section -->
+<script src="/assets/js/app.js" defer></script>
 
-            <div
-                data-aos="fade-left"
-                data-aos-delay="100"
-                style="margin-bottom: 50px"
-            >
-                <img
-                    src="assets/images/wide-Sway2VoteBubble.png"
-                    class="img-fluid"
-                    alt=""
-                />
-            </div>
-
-            <div class="container" style="margin: 0px auto; text-align: center">
-                <a
-                    href="https://sway.vote"
-                    target="_blank"
-                    class="launch-btn"
-                    style="margin: 10px auto"
-                    >Launch Sway <i class="bx bx-rocket"></i
-                ></a>
-            </div>
-
-            <!-- ======= Details Section ======= -->
-            <section id="details" class="details">
-                <div class="container">
-                    <div class="row content">
-                        <div class="col-md-4" data-aos="fade-right">
-                            <img
-                                src="assets/images/ballotbox-black.png"
-                                class="img-fluid"
-                                alt=""
-                            />
-                        </div>
-                        <div class="col-md-8 pt-0" data-aos="fade-up">
-                            <h3>Bill of the Week</h3>
-                            <p class="font-italic">
-                                Sway only notifies you about one piece of
-                                legislation each week.
-                            </p>
-                            <ul>
-                                <li>
-                                    <i class="bi bi-check"></i> Focus on the
-                                    legislation that matters most.
-                                </li>
-                                <li>
-                                    <i class="bi bi-check"></i> Cut through the
-                                    noise and impact your representatives in
-                                    meaningful ways.
-                                </li>
-                                <li>
-                                    <i class="bi bi-check"></i> Don't get
-                                    overwhelmed by legislation with little
-                                    impact.
-                                </li>
-                            </ul>
-                            <p>
-                                Click
-                                <a
-                                    href="/html/choosing-the-bill-of-the-week.html"
-                                    >here </a
-                                >for more information about how Sway selects the
-                                Bill of the Week.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="row content">
-                        <div
-                            class="col-md-4 order-1 order-md-2"
-                            data-aos="fade-left"
-                        >
-                            <img
-                                src="assets/images/flags.png"
-                                class="img-fluid"
-                                alt=""
-                            />
-                        </div>
-                        <div
-                            class="col-md-8 pt-0 order-2 order-md-1"
-                            data-aos="fade-up"
-                        >
-                            <h3>Extensible</h3>
-                            <p class="font-italic">
-                                Sway doesn't serve every city, but it can. If
-                                you don't see your municipality in Sway already
-                                you can work with us to add it.
-                            </p>
-                            <p>
-                                As of August, 2012, the US Census Bureau
-                                <a
-                                    href="https://www.census.gov/newsroom/releases/archives/governments/cb12-161.html"
-                                    target="_blank"
-                                    >counted 89,004 local governments</a
-                                >
-                                in the United States. That is almost 90,000
-                                governments that need to be held accountable to
-                                their voters.
-                            </p>
-                            <p>
-                                Sway is open to changes. If you want to hold
-                                your local government accountable, open a
-                                request to
-                                <a
-                                    href="https://github.com/Plebeian-Technology/sway#adding-a-new-locale"
-                                    target="_blank"
-                                    >add your municipality on Github </a
-                                ><i
-                                    class="bi bi-github"
-                                    style="vertical-align: text-bottom"
-                                ></i>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="row content">
-                        <div class="col-md-4" data-aos="fade-right">
-                            <img
-                                src="assets/images/private.png"
-                                class="img-fluid"
-                                alt=""
-                            />
-                        </div>
-                        <div class="col-md-8 pt-0" data-aos="fade-up">
-                            <h3>Private</h3>
-                            <p>
-                                Political choices can carry a lot of tension.
-                                Sway knows this and works to make Sway as
-                                private as possible.
-                            </p>
-                            <ul>
-                                <li>
-                                    <i class="bi bi-check"></i> Your data is
-                                    your data, it is not and will not be sold to
-                                    anyone.
-                                </li>
-                                <li>
-                                    <i class="bi bi-check"></i> See the number
-                                    of people who voted, not their names.
-                                </li>
-                                <li>
-                                    <i class="bi bi-check"></i> Influence your
-                                    representatives without revealing your
-                                    identity.
-                                </li>
-                            </ul>
-                            <p>
-                                Sway works with you to both maximize your
-                                privacy and power.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Details Section -->
-
-            <div
-                class="container"
-                style="margin: 0px auto; text-align: center"
-            ></div>
-
-            <div class="container" style="margin: 0px auto; text-align: center">
-                <a
-                    href="https://sway.vote"
-                    target="_blank"
-                    class="launch-btn"
-                    style="margin: 10px auto; margin-bottom: 50px"
-                    >Launch Sway <i class="bx bx-rocket"></i
-                ></a>
-            </div>
-        </main>
-        <!-- End #main -->
-
-        <!-- ======= Footer ======= -->
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <h3>Sway</h3>
-                            <p>
-                                Baltimore, MD<br />
-                                United States <br /><br />
-                                <a href="mailto:info@sway.vote"
-                                    ><strong>Email:</strong> info@sway.vote</a
-                                ><br />
-                            </p>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Useful Links</h4>
-                            <ul>
-                                <li>
-                                    <i class="bx bx-chevron-right"></i>
-                                    <a href="#">Home</a>
-                                </li>
-                                <li>
-                                    <i class="bx bx-chevron-right"></i>
-                                    <a href="#features">About us</a>
-                                </li>
-                                <li>
-                                    <i class="bx bx-chevron-right"></i>
-                                    <a href="/html/tos.html"
-                                        >Terms of service</a
-                                    >
-                                </li>
-                                <li>
-                                    <i class="bx bx-chevron-right"></i>
-                                    <a href="/html/privacy.html"
-                                        >Privacy policy</a
-                                    >
-                                </li>
-                                <li>
-                                    <i class="bx bx-chevron-right"></i>
-                                    <a href="/html/organizations.html"
-                                        >Organization content policy</a
-                                    >
-                                </li>
-                                <li>
-                                    <i class="bx bx-chevron-right"></i>
-                                    <a href="#">Developer API</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links"></div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Our Social Networks</h4>
-                            <p>
-                                Get notified when we release a new Bill of the
-                                Week
-                            </p>
-                            <div class="social-links mt-3">
-                                <a
-                                    href="https://twitter.com/sway_vote"
-                                    target="_blank"
-                                    class="twitter"
-                                    ><i class="bx bxl-twitter"></i
-                                ></a>
-                                <a
-                                    href="https://github.com/Plebeian-Technology/sway"
-                                    target="_blank"
-                                    ><i class="bx bxl-github"></i
-                                ></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container py-4">
-                <div class="copyright">
-                    &copy; Copyright
-                    <strong><span>Plebeian Technologies, Inc.</span></strong
-                    >. All Rights Reserved
-                </div>
-            </div>
-        </footer>
-        <!-- End Footer -->
-
-        <a
-            href="#"
-            class="back-to-top d-flex align-items-center justify-content-center"
-            ><i class="bi bi-arrow-up-short"></i
-        ></a>
-
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
-
-        <!-- Load sway.vote from cold-start -->
-        <script src="assets/js/app.js"></script>
-    </body>
+</body>
 </html>
