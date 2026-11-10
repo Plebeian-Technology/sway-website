@@ -205,11 +205,11 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr));
   gap: 32px 64px;
-  align-items: start;
+  align-items: center;
 }
 
 .hero__copy {
-  padding-block: clamp(56px, 9vw, 120px) 72px;
+  padding-block: clamp(56px, 8vw, 104px);
   min-width: 0;
 }
 
@@ -247,8 +247,15 @@ h3 {
 
 .hero__art img {
   width: 100%;
-  max-width: 440px;
+  max-width: 400px;
   height: auto;
+}
+
+/* Stacked on narrow screens: give the flag room below the copy. */
+@media (max-width: 1000px) {
+  .hero__art {
+    padding-bottom: 56px;
+  }
 }
 
 /* How it works */

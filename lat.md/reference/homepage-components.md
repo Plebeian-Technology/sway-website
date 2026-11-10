@@ -20,6 +20,7 @@ Headline "Remember in November."
 
 - Class `hero`. Two-column grid that collapses under 440px per column.
 - Headline size `clamp(46px, 5.8vw, 86px)`.
+- Flag art (`hero__art`, max 400px wide) is vertically centered against the copy, as on the original site. Stacked, it sits below the copy.
 - Actions: Open Sway button and a GitHub source link.
 
 ## How it works
