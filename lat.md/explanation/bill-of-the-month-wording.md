@@ -23,4 +23,4 @@ From the Sway repository's lat.md folder it uses `bill-interesting-score.md` and
 
 The app schema allows one featured bill per locale per day, and the site says "one bill a month".
 
-The site copy states the editorial cadence, which the app does not enforce. The privacy claims on the policy page were also left as written. Both gaps were reported to the owner instead of edited.
+The site copy states the editorial cadence, which the app does not enforce. The cadence gap was reported to the owner instead of edited. The privacy page was checked against the app separately; only claims the app contradicts were corrected.
