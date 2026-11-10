@@ -19,6 +19,7 @@ Paths relative to the site root.
 | `/html/organizations.html` | Organization content policy |
 | `/html/choosing-the-bill-of-the-month.html` | How a Bill of the Month is chosen |
 | `/google489e97deb221ceca.html` | Google site verification, untouched |
+| `/404.html` | Not-found page. Cloudflare Pages serves it with status 404 for any unknown path. Uses root-relative links and `noindex`. |
 
 ## Redirect
 

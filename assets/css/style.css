@@ -668,3 +668,10 @@ h3 {
 .doc__cta {
   margin-top: 48px;
 }
+
+.doc__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+}

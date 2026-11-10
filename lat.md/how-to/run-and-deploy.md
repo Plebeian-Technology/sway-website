@@ -24,3 +24,4 @@ Cloudflare Pages deploys straight from the repository root with no build command
 2. In the Cloudflare Pages project, leave the build command empty and set the output directory to `/`.
 3. Merge to `main`. Pages publishes the root, including `_redirects`.
 4. Open the live site and confirm `/html/choosing-the-bill-of-the-week.html` redirects to the month page.
+5. Open a path that does not exist, such as `/nope`, and confirm it shows the not-found page with status 404.
