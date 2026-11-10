@@ -1,3 +1,4 @@
+// @lat: [[pages-and-redirect#Pages and redirect#Shared assets]]
 (function () {
     "use strict"
 
