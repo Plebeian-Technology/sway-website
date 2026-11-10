@@ -3,3 +3,4 @@ node_modules
 .playwright-mcp/
 .lat-build
 lat.md/.cache/
+.claude/
